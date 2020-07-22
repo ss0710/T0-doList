@@ -152,12 +152,12 @@ body{
 @media (max-width: 1028px){
     
     .header{
-        height: 400px;
+        height: 450px;
     }
 
     .content{
-        height: 1000px;
-        max-height: 1000px;
+        height: 900px;
+        max-height: 900px;
     }
 
     .add-to-do{
