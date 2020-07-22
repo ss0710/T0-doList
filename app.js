@@ -1,15 +1,15 @@
 var d = new Date();
 document.getElementById("date").innerHTML = "Date: "+d.getDate()+"/" + d.getMonth()+"/" + d.getFullYear();
 
-const clear = document.querySelector(".clear");
-const dateElement = document.getElementById("date");
-const list = document.getElementById("list");
-const input = document.getElementById("input");
+var clear = document.querySelector(".clear");
+var dateElement = document.getElementById("date");
+var list = document.getElementById("list");
+var input = document.getElementById("input");
 
 
-const CHECK = "fa-check-circle";
-const UNCHECK = "fa-circle-thin";
-const LINE_THROUGH = "lineThrough";
+var CHECK = "fa-check-circle";
+var UNCHECK = "fa-circle-thin";
+var LINE_THROUGH = "lineThrough";
 
 let LIST, id;
 
@@ -109,24 +109,3 @@ list.addEventListener("click", function(event){
     
     localStorage.setItem("TODO", JSON.stringify(LIST));
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
